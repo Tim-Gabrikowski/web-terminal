@@ -3,7 +3,7 @@
 	"version": "2.0.0",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ivarprudnikov/webpack-static-html-pages"
+		"url": "https://github.com/tim-gabrikowski/webpack-static-html-pages"
 	},
 	"description": "Example of a static website assembled by using webpack v5",
 	"keywords": [
@@ -15,6 +15,7 @@
 	],
 	"license": "MIT",
 	"dependencies": {
+		"bash-emulator": "^1.1.0",
 		"normalize.css": "^8.0.1"
 	},
 	"scripts": {

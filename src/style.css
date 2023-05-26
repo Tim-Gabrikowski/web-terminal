@@ -1,0 +1,46 @@
+html,
+body {
+	color: white;
+	font-size: 110%;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0px;
+}
+* {
+	font-family: "Ubuntu Mono", monospace;
+}
+body,
+#input {
+	background: #300a24;
+	line-height: 120%;
+}
+
+#output {
+	white-space: pre-wrap;
+}
+
+#input {
+	border: none;
+	font-size: inherit;
+	color: white;
+	flex-grow: 1;
+	margin-left: 10px;
+}
+
+#input:focus {
+	outline: none;
+}
+
+.input-wrap {
+	display: flex;
+}
+
+.error {
+	color: white;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
